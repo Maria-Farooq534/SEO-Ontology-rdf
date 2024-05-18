@@ -7,7 +7,12 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:untitled-ontology-20="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20"/>
+    <owl:Ontology rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20">
+    <owl:versionInfo>1.0</owl:versionInfo>
+    <owl:licence rdf:resource="https://example.org/licences/by-nc/4.0/"/>
+    </owl:Ontology>
+
+
     
 
 
