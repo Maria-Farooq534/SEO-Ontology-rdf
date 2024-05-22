@@ -1,0 +1,1927 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9"
+     xml:base="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-9="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#IsPracticedIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#IsPracticedIn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Geographical_Regions"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Culture"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#hasArtsAndCrafts -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#hasArtsAndCrafts">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Culture"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Arts_and_Aesthetics"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#hasCasualWear -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#hasCasualWear">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#hasClothing"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Culture"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Casual_wear"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#hasClothing -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#hasClothing">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Culture"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Clothing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#hasCulture -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#hasCulture">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Geographical_Regions"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Culture"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#hasDialect -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#hasDialect">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Languages"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Geographical_Regions"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#hasFood -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#hasFood">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Culture"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Foods"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#hasGeographicalRegion -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#hasGeographicalRegion">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Culture"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Geographical_Regions"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#hasHistoricTales -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#hasHistoricTales">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Culture"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Historic_Tales"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#hasIngridentsBasedFood -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#hasIngridentsBasedFood">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Culture"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Ingridents_based_Food"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#hasLanguage -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#hasLanguage">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Culture"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Languages"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#hasProvencilLanguages -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#hasProvencilLanguages">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#hasLanguage"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Culture"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Provincial"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#hasRegionialLanguages -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#hasRegionialLanguages">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#hasLanguage"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Culture"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Regional"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#hasSocialStructure -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#hasSocialStructure">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Traditions"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Culture"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#hasSpecialWear -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#hasSpecialWear">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#hasClothing"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Culture"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Special_wear"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#hasTimeBasedFood -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#hasTimeBasedFood">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Culture"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Time_based_food"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#hasTradition -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#hasTradition">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Culture"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Traditions"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#isEatenIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#isEatenIn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Foods"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Geographical_Regions"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#isSpokenln -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#isSpokenln">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Languages"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Provincial"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Regional"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Geographical_Regions"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Regions"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#isUsedln -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#isUsedln">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Clothing"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Culture"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#isWornln -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#isWornln">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Clothing"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Geographical_Regions"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#AestheticPrinciple -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#AestheticPrinciple">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Arts_and_Aesthetics"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#AgeRole -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#AgeRole">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Social_Structure_and_Organization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#ArtForm -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#ArtForm">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Arts_and_Aesthetics"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Artifacts -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Artifacts">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Historic_Tales"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#ArtisticMaterial -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#ArtisticMaterial">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Arts_and_Aesthetics"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#ArtisticStyle -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#ArtisticStyle">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Arts_and_Aesthetics"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#DateOfBirth -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#DateOfBirth">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Arts_and_Aesthetics"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#GenderRole -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#GenderRole">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Social_Structure_and_Organization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#HistoricalEvents -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#HistoricalEvents">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Historic_Tales"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#MythsAndFolkore -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#MythsAndFolkore">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Historic_Tales"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Arts_and_Aesthetics"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#NotableWork -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#NotableWork">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Arts_and_Aesthetics"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Religion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Religion">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Religions_and_Beliefs"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#ReligiousBeliefs -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#ReligiousBeliefs">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Religions_and_Beliefs"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#ReligiousInstitutions -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#ReligiousInstitutions">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Religions_and_Beliefs"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#ReligousRole -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#ReligousRole">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Social_Structure_and_Organization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#SchoolOrInstitutions -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#SchoolOrInstitutions">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Arts_and_Aesthetics"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#SocialClass -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#SocialClass">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Social_Structure_and_Organization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#SocialGroup -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#SocialGroup">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Social_Structure_and_Organization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#TypeOfFamily -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#TypeOfFamily">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Social_Structure_and_Organization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Arts_and_Aesthetics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Arts_and_Aesthetics">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#hasArtsAndCrafts"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Arts_and_Aesthetics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Balochi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Balochi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Culture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Breakfast -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Breakfast">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Time_based_food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Buddhism -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Buddhism">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Religions_and_Beliefs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Casual_wear -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Casual_wear">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Clothing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Christianity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Christianity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Religions_and_Beliefs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Clothing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Clothing">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#hasClothing"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Clothing"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Culinary_Arts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Culinary_Arts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Arts_and_Aesthetics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Culture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Culture">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#hasClothing"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Clothing"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#hasTradition"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Traditions"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Dinner -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Dinner">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Time_based_food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Epic_Narratives -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Epic_Narratives">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Historic_Tales"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Family_And_Kinship -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Family_And_Kinship">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Social_Structure_and_Organization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Festivals -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Festivals">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Traditions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Folk_Tales -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Folk_Tales">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Historic_Tales"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Foods -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Foods">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#isEatenIn"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Geographical_Regions"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Gender_Role -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Gender_Role">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Social_Structure_and_Organization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Geographical_Regions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Geographical_Regions">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#hasGeographicalRegion"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Geographical_Regions"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Gilgit_Baltistan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Gilgit_Baltistan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Culture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Handicrafts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Handicrafts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Arts_and_Aesthetics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Hinduism -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Hinduism">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Religions_and_Beliefs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Historic_Tales -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Historic_Tales">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#hasHistoricTales"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Historic_Tales"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Ingridents_based_Food -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Ingridents_based_Food">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Foods"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Islam -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Islam">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Religions_and_Beliefs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Languages -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Languages">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#hasDialect"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Geographical_Regions"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Literature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Literature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Arts_and_Aesthetics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Lunch -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Lunch">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Time_based_food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Meat_Food -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Meat_Food">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Ingridents_based_Food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Men -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Men">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Casual_wear"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Nomadic_traditions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Nomadic_traditions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Social_Structure_and_Organization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Non_vegetarians -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Non_vegetarians">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Ingridents_based_Food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Pakhtoon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Pakhtoon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Culture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Performing_Arts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Performing_Arts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Arts_and_Aesthetics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Provincial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Provincial">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Languages"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Punjab -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Punjab">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Culture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Regional -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Regional">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Languages"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Regions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Regions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Geographical_Regions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Religions_and_Beliefs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Religions_and_Beliefs"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Religious_institutions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Religious_institutions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Social_Structure_and_Organization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sea_Food -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sea_Food">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Ingridents_based_Food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sikhism -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sikhism">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Religions_and_Beliefs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sindhi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sindhi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Culture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Social_Structure_and_Organization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Social_Structure_and_Organization">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#hasSocialStructure"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Culture"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Special_wear -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Special_wear">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Clothing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sufi_Legends -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sufi_Legends">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Historic_Tales"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sweets -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sweets">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Ingridents_based_Food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Time_based_food -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Time_based_food">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Foods"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Traditions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Traditions">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#hasTradition"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Culture"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Vegetarians -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Vegetarians">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Ingridents_based_Food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Villages_Communities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Villages_Communities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Social_Structure_and_Organization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Visual_Arts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Visual_Arts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Arts_and_Aesthetics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Women -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Women">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Casual_wear"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Men: -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Men:">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Special_wear"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Women: -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Women:">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Special_wear"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Achkan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Achkan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Men:"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Banjara_Community -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Banjara_Community">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Nomadic_traditions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Barelvi_And_Deobandi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Barelvi_And_Deobandi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Islam"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Basant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Basant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Festivals"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Basohli_Painting -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Basohli_Painting">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Visual_Arts"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Beef -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Beef">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Meat_Food"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Biraderi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Biraderi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Villages_Communities"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Caste_System -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Caste_System">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Family_And_Kinship"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Chenab_Valley -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Chenab_Valley">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Regions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Colonial_Influence -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Colonial_Influence">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Christianity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Crab -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Crab">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sea_Food"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Daal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Daal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Lunch"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Dairy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Dairy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Dance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Dance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Performing_Arts"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Denominations -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Denominations">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Christianity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Derasufiana -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Derasufiana">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Religious_institutions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Dhoti_Kurta -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Dhoti_Kurta">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Men"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Division_Of_Labours -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Division_Of_Labours">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Gender_Role"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Doaba_region -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Doaba_region">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Regions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#DriedFish -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#DriedFish">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sea_Food"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Eggs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Eggs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Non_vegetarians"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Eid-al-Adha -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Eid-al-Adha">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Festivals"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Eid-al-Fitr -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Eid-al-Fitr">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Festivals"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Folklore -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Folklore">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Literature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#FreshWaterFish -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#FreshWaterFish">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sea_Food"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Fruits -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Fruits">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Vegetarians"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Gandhara_Buddhist_art -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Gandhara_Buddhist_art">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Buddhism"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Gharara -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Gharara">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Women:"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Growing_Interest -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Growing_Interest">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Buddhism"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Guru_Granth_Sahib -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Guru_Granth_Sahib">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sikhism"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Halwa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Halwa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Breakfast"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Handloom_Weaving -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Handloom_Weaving">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Handicrafts"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Heer_Ranjha -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Heer_Ranjha">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Epic_Narratives"/>
+        <untitled-ontology-9:HistoricalEvents>In 1992, a movie adaptation based on Heer Ranjha  was released which became very popular</untitled-ontology-9:HistoricalEvents>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Hindko -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Hindko">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Regional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Hindu_Temple -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Hindu_Temple">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Religious_institutions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Interfaith_dialogue -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Interfaith_dialogue">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Christianity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Jassa_Singh_Ahluwalia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Jassa_Singh_Ahluwalia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Epic_Narratives"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Jewelry -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Jewelry">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Handicrafts"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Jogi_Community -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Jogi_Community">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Nomadic_traditions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Joint_Family_System -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Joint_Family_System">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Family_And_Kinship"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Kurta_Pajama -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Kurta_Pajama">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Men"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Kurti_lehnga -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Kurti_lehnga">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Women:"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Lassi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Lassi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Breakfast"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Legumes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Legumes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Vegetarians"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Lehnga_Choli -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Lehnga_Choli">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Women:"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Lentils -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Lentils">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Vegetarians"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Limited_presence -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Limited_presence">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Buddhism"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Majha_region -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Majha_region">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Regions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Malwi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Malwi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Regional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#MaritalArtsAndGames -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#MaritalArtsAndGames"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Metalwork -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Metalwork"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#MilkBasedDeserts -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#MilkBasedDeserts">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sweets"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#MixMeetDishes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#MixMeetDishes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Non_vegetarians"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Modern_Transformations -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Modern_Transformations">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Gender_Role"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Monotheistic_Faith -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Monotheistic_Faith">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sikhism"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Mosques_And_Madrassas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Mosques_And_Madrassas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Religious_institutions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Music -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Music">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Performing_Arts"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Pagri -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Pagri">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Men:"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Panchayat_System -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Panchayat_System">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Villages_Communities"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Parats -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Parats"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Pastries -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Pastries">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sweets"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Phaulkian_Painting -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Phaulkian_Painting">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Visual_Arts"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Phulkari_Embroidery -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Phulkari_Embroidery">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Handicrafts"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Poetry -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Poetry">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Literature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Pothohar_region -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Pothohar_region">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Regions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Pothwari -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Pothwari">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Regional"/>
+        <untitled-ontology-9:isSpokenln rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Pothohar_region"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Pottery -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Pottery"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Prawns -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Prawns">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sea_Food"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Pulses -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Pulses">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Vegetarians"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Punjabi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Punjabi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Provincial"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#PunjabiCulture -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#PunjabiCulture">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Culture"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Traditions"/>
+        <untitled-ontology-9:IsPracticedIn rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Barelvi_And_Deobandi"/>
+        <untitled-ontology-9:IsPracticedIn rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Colonial_Influence"/>
+        <untitled-ontology-9:IsPracticedIn rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Denominations"/>
+        <untitled-ontology-9:IsPracticedIn rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Gandhara_Buddhist_art"/>
+        <untitled-ontology-9:IsPracticedIn rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Growing_Interest"/>
+        <untitled-ontology-9:IsPracticedIn rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Interfaith_dialogue"/>
+        <untitled-ontology-9:IsPracticedIn rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Limited_presence"/>
+        <untitled-ontology-9:IsPracticedIn rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sanatan_Dharma"/>
+        <untitled-ontology-9:IsPracticedIn rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sati_Tradition"/>
+        <untitled-ontology-9:IsPracticedIn rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Shaivism_And_VaISHNAVISM"/>
+        <untitled-ontology-9:IsPracticedIn rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Shia"/>
+        <untitled-ontology-9:IsPracticedIn rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sufism"/>
+        <untitled-ontology-9:IsPracticedIn rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sunni"/>
+        <untitled-ontology-9:hasArtsAndCrafts rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Basohli_Painting"/>
+        <untitled-ontology-9:hasArtsAndCrafts rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Dance"/>
+        <untitled-ontology-9:hasArtsAndCrafts rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Folklore"/>
+        <untitled-ontology-9:hasArtsAndCrafts rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Handloom_Weaving"/>
+        <untitled-ontology-9:hasArtsAndCrafts rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Jewelry"/>
+        <untitled-ontology-9:hasArtsAndCrafts rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Music"/>
+        <untitled-ontology-9:hasArtsAndCrafts rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Phaulkian_Painting"/>
+        <untitled-ontology-9:hasArtsAndCrafts rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Phulkari_Embroidery"/>
+        <untitled-ontology-9:hasArtsAndCrafts rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Poetry"/>
+        <untitled-ontology-9:hasArtsAndCrafts rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Rich_Flavors"/>
+        <untitled-ontology-9:hasArtsAndCrafts rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sufi_Literature"/>
+        <untitled-ontology-9:hasArtsAndCrafts rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sweet_Delights"/>
+        <untitled-ontology-9:hasArtsAndCrafts rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Truck_Art"/>
+        <untitled-ontology-9:hasCasualWear rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Dhoti_Kurta"/>
+        <untitled-ontology-9:hasCasualWear rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Kurta_Pajama"/>
+        <untitled-ontology-9:hasCasualWear rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Salwar_Suit"/>
+        <untitled-ontology-9:hasCasualWear rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Shalwar_Kameez"/>
+        <untitled-ontology-9:hasCasualWear rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Shalwar_Kameez_with_Dupattas"/>
+        <untitled-ontology-9:hasFood rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sabzi"/>
+        <untitled-ontology-9:hasGeographicalRegion rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Chenab_Valley"/>
+        <untitled-ontology-9:hasGeographicalRegion rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Doaba_region"/>
+        <untitled-ontology-9:hasGeographicalRegion rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Majha_region"/>
+        <untitled-ontology-9:hasGeographicalRegion rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Pothohar_region"/>
+        <untitled-ontology-9:hasGeographicalRegion rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Saraiki_region"/>
+        <untitled-ontology-9:hasHistoricTales rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Heer_Ranjha"/>
+        <untitled-ontology-9:hasHistoricTales rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Jassa_Singh_Ahluwalia"/>
+        <untitled-ontology-9:hasHistoricTales rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Shah_Bulleh_Shah"/>
+        <untitled-ontology-9:hasHistoricTales rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sohni_Mahiwal"/>
+        <untitled-ontology-9:hasHistoricTales rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sufi_Miracles"/>
+        <untitled-ontology-9:hasHistoricTales rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#The_Four_Princes"/>
+        <untitled-ontology-9:hasHistoricTales rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#The_Talking_Animal"/>
+        <untitled-ontology-9:hasHistoricTales rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#The_Wise_Bandit"/>
+        <untitled-ontology-9:hasHistoricTales rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Waris_Shah"/>
+        <untitled-ontology-9:hasIngridentsBasedFood rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Beef"/>
+        <untitled-ontology-9:hasIngridentsBasedFood rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Crab"/>
+        <untitled-ontology-9:hasIngridentsBasedFood rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#DriedFish"/>
+        <untitled-ontology-9:hasIngridentsBasedFood rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Eggs"/>
+        <untitled-ontology-9:hasIngridentsBasedFood rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#FreshWaterFish"/>
+        <untitled-ontology-9:hasIngridentsBasedFood rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Legumes"/>
+        <untitled-ontology-9:hasIngridentsBasedFood rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Lentils"/>
+        <untitled-ontology-9:hasIngridentsBasedFood rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#MilkBasedDeserts"/>
+        <untitled-ontology-9:hasIngridentsBasedFood rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#MixMeetDishes"/>
+        <untitled-ontology-9:hasIngridentsBasedFood rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Pastries"/>
+        <untitled-ontology-9:hasIngridentsBasedFood rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Prawns"/>
+        <untitled-ontology-9:hasIngridentsBasedFood rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Pulses"/>
+        <untitled-ontology-9:hasIngridentsBasedFood rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#SugerBasedDeserts"/>
+        <untitled-ontology-9:hasIngridentsBasedFood rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#TraditionalSweets"/>
+        <untitled-ontology-9:hasIngridentsBasedFood rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Vegetables"/>
+        <untitled-ontology-9:hasIngridentsBasedFood rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Yogurt"/>
+        <untitled-ontology-9:hasIngridentsBasedFood rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#chicken"/>
+        <untitled-ontology-9:hasIngridentsBasedFood rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Goat/Lamb"/>
+        <untitled-ontology-9:hasProvencilLanguages rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Punjabi"/>
+        <untitled-ontology-9:hasRegionialLanguages rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Hindko"/>
+        <untitled-ontology-9:hasRegionialLanguages rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Malwi"/>
+        <untitled-ontology-9:hasRegionialLanguages rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Pothwari"/>
+        <untitled-ontology-9:hasRegionialLanguages rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Seraiki"/>
+        <untitled-ontology-9:hasSocialStructure rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Banjara_Community"/>
+        <untitled-ontology-9:hasSocialStructure rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Biraderi"/>
+        <untitled-ontology-9:hasSocialStructure rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Caste_System"/>
+        <untitled-ontology-9:hasSocialStructure rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Derasufiana"/>
+        <untitled-ontology-9:hasSocialStructure rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Division_Of_Labours"/>
+        <untitled-ontology-9:hasSocialStructure rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Hindu_Temple"/>
+        <untitled-ontology-9:hasSocialStructure rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Jogi_Community"/>
+        <untitled-ontology-9:hasSocialStructure rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Joint_Family_System"/>
+        <untitled-ontology-9:hasSocialStructure rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Modern_Transformations"/>
+        <untitled-ontology-9:hasSocialStructure rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Mosques_And_Madrassas"/>
+        <untitled-ontology-9:hasSocialStructure rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Panchayat_System"/>
+        <untitled-ontology-9:hasSocialStructure rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Seasonal_Migration"/>
+        <untitled-ontology-9:hasSocialStructure rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Separate_Family_System"/>
+        <untitled-ontology-9:hasSocialStructure rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Social_Hierarchies"/>
+        <untitled-ontology-9:hasSocialStructure rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Tribal_Affiliations"/>
+        <untitled-ontology-9:hasSpecialWear rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Achkan"/>
+        <untitled-ontology-9:hasSpecialWear rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Gharara"/>
+        <untitled-ontology-9:hasSpecialWear rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Kurti_lehnga"/>
+        <untitled-ontology-9:hasSpecialWear rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Lehnga_Choli"/>
+        <untitled-ontology-9:hasSpecialWear rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Pagri"/>
+        <untitled-ontology-9:hasSpecialWear rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Shararat"/>
+        <untitled-ontology-9:hasSpecialWear rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sherwani"/>
+        <untitled-ontology-9:hasTimeBasedFood rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Daal"/>
+        <untitled-ontology-9:hasTimeBasedFood rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Halwa"/>
+        <untitled-ontology-9:hasTimeBasedFood rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Lassi"/>
+        <untitled-ontology-9:hasTimeBasedFood rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Rice"/>
+        <untitled-ontology-9:hasTimeBasedFood rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Roti"/>
+        <untitled-ontology-9:hasTimeBasedFood rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sabzi"/>
+        <untitled-ontology-9:hasTimeBasedFood rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Chicken/MeatCurry"/>
+        <untitled-ontology-9:hasTradition rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Basant"/>
+        <untitled-ontology-9:hasTradition rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Eid-al-Adha"/>
+        <untitled-ontology-9:hasTradition rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Eid-al-Fitr"/>
+        <untitled-ontology-9:hasTradition rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Guru_Nanak_Dev_Ji&apos;s_Birthday"/>
+        <untitled-ontology-9:Name>Punjabi</untitled-ontology-9:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Rice -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Rice">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Dinner"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Rich_Flavors -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Rich_Flavors">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Culinary_Arts"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Roti -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Roti">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Lunch"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sabzi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sabzi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Lunch"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Salwar_Suit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Salwar_Suit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Women"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sanatan_Dharma -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sanatan_Dharma">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Hinduism"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Saraiki_region -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Saraiki_region">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Regions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sati_Tradition -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sati_Tradition">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Hinduism"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Seasonal_Migration -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Seasonal_Migration">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Nomadic_traditions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Separate_Family_System -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Separate_Family_System">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Family_And_Kinship"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Separate_Family_Sysytem -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Separate_Family_Sysytem"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Seraiki -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Seraiki">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Regional"/>
+        <untitled-ontology-9:isSpokenln rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Saraiki_region"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Shah_Bulleh_Shah -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Shah_Bulleh_Shah">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sufi_Legends"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Shaivism_And_VaISHNAVISM -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Shaivism_And_VaISHNAVISM">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Hinduism"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Shalwar_Kameez -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Shalwar_Kameez">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Men"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Shalwar_Kameez_with_Dupattas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Shalwar_Kameez_with_Dupattas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Women"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Shararat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Shararat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Women:"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sherwani -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sherwani">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Men:"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Shia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Shia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Islam"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Social_Hierarchies -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Social_Hierarchies">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Villages_Communities"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sohni_Mahiwal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sohni_Mahiwal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Epic_Narratives"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sufi_Literature -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sufi_Literature">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Literature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sufi_Miracles -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sufi_Miracles">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sufi_Legends"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sufism -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sufism">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Islam"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#SugerBasedDeserts -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#SugerBasedDeserts">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sweets"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sunni -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sunni">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Islam"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sweet_Delights -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sweet_Delights">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Culinary_Arts"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Texttiles -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Texttiles"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#The_Four_Princes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#The_Four_Princes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Folk_Tales"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#The_Talking_Animal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#The_Talking_Animal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Folk_Tales"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#The_Wise_Bandit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#The_Wise_Bandit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Folk_Tales"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#TraditionalSweets -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#TraditionalSweets">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sweets"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Tribal_Affiliations -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Tribal_Affiliations">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Family_And_Kinship"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Truck_Art -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Truck_Art">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Visual_Arts"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Vegetables -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Vegetables">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Vegetarians"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Waris_Shah -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Waris_Shah">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Sufi_Legends"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Woodwork -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Woodwork"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Yogurt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Yogurt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Non_vegetarians"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#chicken -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#chicken">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Meat_Food"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Chicken/MeatCurry -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Chicken/MeatCurry">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Dinner"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Goat/Lamb -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Goat/Lamb">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Meat_Food"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Guru_Nanak_Dev_Ji&apos;s_Birthday -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Guru_Nanak_Dev_Ji&apos;s_Birthday">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wajid/ontologies/2023/10/untitled-ontology-9#Festivals"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
