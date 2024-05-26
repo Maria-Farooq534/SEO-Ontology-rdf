@@ -1,0 +1,530 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.homearchitecture.com/"
+     xml:base="http://www.homearchitecture.com/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:homeOntology="http://purl.bioontology.org/ontology/RCD/">
+    <owl:Ontology rdf:about="http://www.homearchitecture.com">
+        <rdfs:comment>this ontology is mainly made for the houses in PAkistan according to the CLiamte of Pakistan</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.homearchitecture.com#HasInternalWalls -->
+
+    <owl:ObjectProperty rdf:about="http://www.homearchitecture.com#HasInternalWalls">
+        <rdfs:domain rdf:resource="http://purl.bioontology.org/ontology/RCD/Ua0gK"/>
+        <rdfs:range rdf:resource="http://purl.bioontology.org/ontology/RCD/Ua0gL"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.homearchitecture.com#HasLocalTopography -->
+
+    <owl:ObjectProperty rdf:about="http://www.homearchitecture.com#HasLocalTopography">
+        <owl:inverseOf rdf:resource="http://www.homearchitecture.com#HasProximityToWaterBodies"/>
+        <rdfs:domain rdf:resource="http://www.homearchitecture.com#EnvironmentalFactors"/>
+        <rdfs:range rdf:resource="http://www.homearchitecture.com#LocalTopography"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.homearchitecture.com#HasNaturalVentilation -->
+
+    <owl:ObjectProperty rdf:about="http://www.homearchitecture.com#HasNaturalVentilation">
+        <rdfs:domain rdf:resource="http://www.homearchitecture.com#VentilationSystem"/>
+        <rdfs:range rdf:resource="http://purl.bioontology.org/ontology/RCD/Ua0h8"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.homearchitecture.com#HasProximityToWaterBodies -->
+
+    <owl:ObjectProperty rdf:about="http://www.homearchitecture.com#HasProximityToWaterBodies">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.homearchitecture.com#LocalTopography"/>
+        <rdfs:range rdf:resource="http://www.homearchitecture.com#EnvironmentalFactors"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.homearchitecture.com#HasShading -->
+
+    <owl:ObjectProperty rdf:about="http://www.homearchitecture.com#HasShading">
+        <rdfs:domain rdf:resource="http://www.homearchitecture.com#Orientation"/>
+        <rdfs:range rdf:resource="http://www.homearchitecture.com#Shading"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.homearchitecture.com#HasTiltAngel -->
+
+    <owl:ObjectProperty rdf:about="http://www.homearchitecture.com#HasTiltAngel">
+        <rdfs:domain rdf:resource="http://www.homearchitecture.com#Orientation"/>
+        <rdfs:range rdf:resource="http://www.homearchitecture.com#TiltAngle"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.homearchitecture.com#HasWindowOrientation -->
+
+    <owl:ObjectProperty rdf:about="http://www.homearchitecture.com#HasWindowOrientation">
+        <rdfs:domain rdf:resource="http://www.homearchitecture.com#DayLighting"/>
+        <rdfs:range rdf:resource="http://www.homearchitecture.com#WindowOrientation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.homearchitecture.com#HasprevailingWinds -->
+
+    <owl:ObjectProperty rdf:about="http://www.homearchitecture.com#HasprevailingWinds">
+        <rdfs:domain rdf:resource="http://www.homearchitecture.com#EnvironmentalFactors"/>
+        <rdfs:range rdf:resource="http://www.homearchitecture.com#PrevailingWinds"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.homearchitecture.com#hasExternalWalls -->
+
+    <owl:ObjectProperty rdf:about="http://www.homearchitecture.com#hasExternalWalls">
+        <rdfs:domain rdf:resource="http://purl.bioontology.org/ontology/RCD/Ua0gK"/>
+        <rdfs:range rdf:resource="http://purl.bioontology.org/ontology/RCD/Ua0gN"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.homearchitecture.com#ArtificialShading -->
+
+    <owl:DatatypeProperty rdf:about="http://www.homearchitecture.com#ArtificialShading">
+        <rdfs:domain rdf:resource="http://www.homearchitecture.com#Shading"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.homearchitecture.com#AzimuthAngle -->
+
+    <owl:DatatypeProperty rdf:about="http://www.homearchitecture.com#AzimuthAngle">
+        <rdfs:domain rdf:resource="http://www.homearchitecture.com#Orientation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.homearchitecture.com#CrossVentilation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.homearchitecture.com#CrossVentilation">
+        <rdfs:domain rdf:resource="http://www.homearchitecture.com#VentilationSystem"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.homearchitecture.com#DayLightHArvestingSystem -->
+
+    <owl:DatatypeProperty rdf:about="http://www.homearchitecture.com#DayLightHArvestingSystem">
+        <rdfs:domain rdf:resource="http://www.homearchitecture.com#DayLighting"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.homearchitecture.com#EnergyRecoveryVentilator -->
+
+    <owl:DatatypeProperty rdf:about="http://www.homearchitecture.com#EnergyRecoveryVentilator">
+        <rdfs:domain rdf:resource="http://www.homearchitecture.com#VentilationSystem"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.homearchitecture.com#HasRoofTimbers -->
+
+    <owl:DatatypeProperty rdf:about="http://www.homearchitecture.com#HasRoofTimbers">
+        <rdfs:domain rdf:resource="http://purl.bioontology.org/ontology/RCD/Ua0gT"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.homearchitecture.com#HasWeatherProofing -->
+
+    <owl:DatatypeProperty rdf:about="http://www.homearchitecture.com#HasWeatherProofing">
+        <rdfs:domain rdf:resource="http://purl.bioontology.org/ontology/RCD/Ua0gS"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.homearchitecture.com#MaterialType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.homearchitecture.com#MaterialType">
+        <rdfs:domain rdf:resource="http://www.homearchitecture.com#BuildingMaterial"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.homearchitecture.com#NaturalShading -->
+
+    <owl:DatatypeProperty rdf:about="http://www.homearchitecture.com#NaturalShading">
+        <rdfs:domain rdf:resource="http://www.homearchitecture.com#Shading"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.homearchitecture.com#RoofTiltAngle -->
+
+    <owl:DatatypeProperty rdf:about="http://www.homearchitecture.com#RoofTiltAngle">
+        <rdfs:domain rdf:resource="http://www.homearchitecture.com#TiltAngle"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.homearchitecture.com#SkyLightArea -->
+
+    <owl:DatatypeProperty rdf:about="http://www.homearchitecture.com#SkyLightArea">
+        <rdfs:domain rdf:resource="http://www.homearchitecture.com#DayLighting"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.homearchitecture.com#StackEffect -->
+
+    <owl:DatatypeProperty rdf:about="http://www.homearchitecture.com#StackEffect">
+        <rdfs:domain rdf:resource="http://www.homearchitecture.com#VentilationSystem"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.homearchitecture.com#SustainableMaterials -->
+
+    <owl:DatatypeProperty rdf:about="http://www.homearchitecture.com#SustainableMaterials">
+        <rdfs:domain rdf:resource="http://www.homearchitecture.com#BuildingMaterial"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.homearchitecture.com#ThermalProperties -->
+
+    <owl:DatatypeProperty rdf:about="http://www.homearchitecture.com#ThermalProperties">
+        <rdfs:domain rdf:resource="http://www.homearchitecture.com#BuildingMaterial"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.homearchitecture.com#WindowArea -->
+
+    <owl:DatatypeProperty rdf:about="http://www.homearchitecture.com#WindowArea">
+        <rdfs:domain rdf:resource="http://www.homearchitecture.com#WindowOrientation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.homearchitecture.com#WindowGlazingType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.homearchitecture.com#WindowGlazingType">
+        <rdfs:domain rdf:resource="http://www.homearchitecture.com#WindowOrientation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.homearchitecture.com#WindowTiltAngle -->
+
+    <owl:DatatypeProperty rdf:about="http://www.homearchitecture.com#WindowTiltAngle">
+        <rdfs:domain rdf:resource="http://www.homearchitecture.com#TiltAngle"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/RCD/Ua0gK -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/RCD/Ua0gK"/>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/RCD/Ua0gL -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/RCD/Ua0gL">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/RCD/Ua0gK"/>
+        <owl:disjointWith rdf:resource="http://purl.bioontology.org/ontology/RCD/Ua0gN"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/RCD/Ua0gM -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/RCD/Ua0gM">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/RCD/Ua0gL"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/RCD/Ua0gN -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/RCD/Ua0gN">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/RCD/Ua0gK"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/RCD/Ua0gO -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/RCD/Ua0gO">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/RCD/Ua0gN"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/RCD/Ua0gP -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/RCD/Ua0gP">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/RCD/Ua0gN"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/RCD/Ua0gQ -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/RCD/Ua0gQ">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/RCD/Ua0gN"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/RCD/Ua0gS -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/RCD/Ua0gS"/>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/RCD/Ua0gT -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/RCD/Ua0gT"/>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/RCD/Ua0h8 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/RCD/Ua0h8">
+        <rdfs:subClassOf rdf:resource="http://www.homearchitecture.com#VentilationSystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.homearchitecture.com#AlpineClimate -->
+
+    <owl:Class rdf:about="http://www.homearchitecture.com#AlpineClimate">
+        <rdfs:subClassOf rdf:resource="http://www.homearchitecture.com#Climate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.homearchitecture.com#AridClimate -->
+
+    <owl:Class rdf:about="http://www.homearchitecture.com#AridClimate">
+        <rdfs:subClassOf rdf:resource="http://www.homearchitecture.com#Climate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.homearchitecture.com#BuildingMaterial -->
+
+    <owl:Class rdf:about="http://www.homearchitecture.com#BuildingMaterial"/>
+    
+
+
+    <!-- http://www.homearchitecture.com#BuildingOrientationAndSolarExposure -->
+
+    <owl:Class rdf:about="http://www.homearchitecture.com#BuildingOrientationAndSolarExposure"/>
+    
+
+
+    <!-- http://www.homearchitecture.com#Climate -->
+
+    <owl:Class rdf:about="http://www.homearchitecture.com#Climate"/>
+    
+
+
+    <!-- http://www.homearchitecture.com#DayLighting -->
+
+    <owl:Class rdf:about="http://www.homearchitecture.com#DayLighting"/>
+    
+
+
+    <!-- http://www.homearchitecture.com#EnvironmentalFactors -->
+
+    <owl:Class rdf:about="http://www.homearchitecture.com#EnvironmentalFactors"/>
+    
+
+
+    <!-- http://www.homearchitecture.com#LocalTopography -->
+
+    <owl:Class rdf:about="http://www.homearchitecture.com#LocalTopography">
+        <rdfs:subClassOf rdf:resource="http://www.homearchitecture.com#EnvironmentalFactors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.homearchitecture.com#Orientation -->
+
+    <owl:Class rdf:about="http://www.homearchitecture.com#Orientation">
+        <rdfs:subClassOf rdf:resource="http://www.homearchitecture.com#BuildingOrientationAndSolarExposure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.homearchitecture.com#PrevailingWinds -->
+
+    <owl:Class rdf:about="http://www.homearchitecture.com#PrevailingWinds">
+        <rdfs:subClassOf rdf:resource="http://www.homearchitecture.com#EnvironmentalFactors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.homearchitecture.com#ProximityToWaterBodies -->
+
+    <owl:Class rdf:about="http://www.homearchitecture.com#ProximityToWaterBodies">
+        <rdfs:subClassOf rdf:resource="http://www.homearchitecture.com#EnvironmentalFactors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.homearchitecture.com#SemiAridClimate -->
+
+    <owl:Class rdf:about="http://www.homearchitecture.com#SemiAridClimate">
+        <rdfs:subClassOf rdf:resource="http://www.homearchitecture.com#Climate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.homearchitecture.com#Shading -->
+
+    <owl:Class rdf:about="http://www.homearchitecture.com#Shading">
+        <rdfs:subClassOf rdf:resource="http://www.homearchitecture.com#BuildingOrientationAndSolarExposure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.homearchitecture.com#TemperatureClimate -->
+
+    <owl:Class rdf:about="http://www.homearchitecture.com#TemperatureClimate">
+        <rdfs:subClassOf rdf:resource="http://www.homearchitecture.com#Climate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.homearchitecture.com#TiltAngle -->
+
+    <owl:Class rdf:about="http://www.homearchitecture.com#TiltAngle">
+        <rdfs:subClassOf rdf:resource="http://www.homearchitecture.com#BuildingOrientationAndSolarExposure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.homearchitecture.com#VentilationSystem -->
+
+    <owl:Class rdf:about="http://www.homearchitecture.com#VentilationSystem"/>
+    
+
+
+    <!-- http://www.homearchitecture.com#WindowOrientation -->
+
+    <owl:Class rdf:about="http://www.homearchitecture.com#WindowOrientation">
+        <rdfs:subClassOf rdf:resource="http://www.homearchitecture.com#DayLighting"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/RCD/Ua0gO"/>
+            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/RCD/Ua0gP"/>
+            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/RCD/Ua0gQ"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.homearchitecture.com#AlpineClimate"/>
+            <rdf:Description rdf:about="http://www.homearchitecture.com#AridClimate"/>
+            <rdf:Description rdf:about="http://www.homearchitecture.com#SemiAridClimate"/>
+            <rdf:Description rdf:about="http://www.homearchitecture.com#TemperatureClimate"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.homearchitecture.com#LocalTopography"/>
+            <rdf:Description rdf:about="http://www.homearchitecture.com#PrevailingWinds"/>
+            <rdf:Description rdf:about="http://www.homearchitecture.com#ProximityToWaterBodies"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.homearchitecture.com#Orientation"/>
+            <rdf:Description rdf:about="http://www.homearchitecture.com#Shading"/>
+            <rdf:Description rdf:about="http://www.homearchitecture.com#TiltAngle"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
